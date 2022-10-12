@@ -1,0 +1,138 @@
+.ranking-grid{
+    background: rgba(16, 12, 74, 0.2);
+    box-shadow: inset 0px 4px 63px rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    padding-bottom: 0 !important;
+    height: 270px;
+  }
+  .head-ranking{
+    border-radius: 4px 4px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    padding: 0 !important;
+    line-height: 40px !important;
+  }
+  .head-ranking-grid {
+    background: radial-gradient(101.35% 101.35% at 50% 22.11%, rgba(255, 255, 255, 0.19) 0%, rgba(24, 20, 53, 0.26) 71.87%), #9747FF;
+    box-shadow: inset 0px 4px 12px #FFFFFF;
+    border-radius: 4px 4px 0px 0px;
+    margin: 0 !important;
+    padding-bottom: 10px;
+  }
+  .list-item-ranking {
+    margin: 0 !important;
+    padding-bottom: 0px;
+    border-bottom: 1px solid rgba(130, 75, 244, 0.08);
+  }
+  .head-ranking-grid h2 {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 0;
+    width: 100%;
+  }
+  .right-info-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    gap: 2px;
+    text-align: center;
+    line-height: initial;
+    width: 64px;
+    height: 64px;
+    background: radial-gradient(101.35% 101.35% at 50% 22.11%, rgba(78, 32, 130, 0.16) 0%, rgba(12, 12, 76, 0.16) 71.87%), #131444;
+    border-radius: 50%;
+    margin-top: 10px !important;
+    margin-right: 5px !important;
+  }
+  .right-info-head p{
+    font-size: 9px;
+    line-height: 9px;
+    display: block;
+    align-items: center;
+    text-align: center;
+
+  }
+  .right-info-head h2{
+    font-size: 14px;
+    line-height: 22px;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.item-list {
+    padding: 0 !important;
+    border-bottom: 1px solid rgba(130, 75, 244, 0.08);
+}
+p {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  .right-info-record{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    gap: 10px;
+    width: 70px;
+    height: 38px;
+    background: #261B50;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    text-align: center;
+  }
+  .right-info-rank{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    gap: 10px;
+    width: 42px;
+    height: 38px;
+    background: #120837;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    text-align: center;
+  }
+  .item-name-ranking{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    padding: 5px 0 0 5px !important;
+  }
+  p.small {
+    font-weight: 400;
+    font-size: 9px;
+    color: rgba(255, 251, 251, 0.7);
+  }
+  .list-item-ranking h3{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFBFB;
+  }
